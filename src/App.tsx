@@ -1,5 +1,6 @@
 import './App.css';
 import {ProductButtons, ProductImage, ProductTitle, ProductCard} from 'product-card-arianjs';
+import {MyLabel} from 'my-storybook-components-arianjs';
 
 const product = {
     id: '1',
@@ -23,6 +24,8 @@ function App() {
                 }
 
             </ProductCard>
+
+            <MyLabel label={'Hola Mundo'} size={'h1'}/>
         </div>
     );
 }
